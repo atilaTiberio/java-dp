@@ -1,7 +1,10 @@
 package mx.horace.dp.structural.adapter;
 
 /*
-This is an example of object adapter
+       This is an example of object adapter
+       When to use Adapter Pattern
+       *  There's an existing class and its interface does not match the one you need
+       *  You want to create a reusable class that cooperates with unrelated or unforeseen, that is, classes that don't necessarily have compatible interfaces
 
  */
 public class XpayToPayAdapter implements PayD {
